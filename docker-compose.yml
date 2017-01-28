@@ -1,0 +1,18 @@
+version: '2'
+
+services:
+
+  olowebrt:
+    container_name: olowebrt
+    build: .
+    ports:
+      - 8083:8080
+#    volumes:
+#     - ./:/var/nodes/easyrtc
+
+#    restart: always
+
+networks:
+  default:
+    external:
+      name: OLONET
