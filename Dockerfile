@@ -1,5 +1,5 @@
 #FROM ubuntu:xenial
-FROM node:4
+FROM node:7-alpine
 
 MAINTAINER Olomedia SRL - Marcello Vetro
 

@@ -9,10 +9,8 @@ services:
       - 8083:8080
 #    volumes:
 #     - ./:/var/nodes/easyrtc
-
 #    restart: always
-
-networks:
-  default:
-    external:
-      name: OLONET
+#networks:
+#  default:
+#    external:
+#      name: OLONET
